@@ -122,28 +122,8 @@ export default{
                 return;
             }
 
-            // if(this.inputs.name_contact == ''){
-            //     console.log('El campo nombre de contacto de fundación es requerido');
-            //     this.type_alert = 'error'
-            //     this.msg_alert= 'El campo nombre de contacto de fundación es requerido'
-            //     return;
-            // }
 
-            // if(this.inputs.phone_contact == ''){
-            //     console.log('El campo telefono de contacto de fundación es requerido');
-            //     this.type_alert = 'error'
-            //     this.msg_alert= 'El campo teléfono de contacto de fundación es requerido'
-            //     return;
-            // }
-
-            // if(this.inputs.email_contact == ''){
-            //     console.log('El campo email de contacto de fundación es requerido');
-            //     this.type_alert = 'error'
-            //     this.msg_alert= 'El campo email de contacto de fundación es requerido'
-            //     return;
-            // }
-
-            let url_api = 'http://127.0.0.1:8001/api/register_asociation';
+            let url_api = '';
 
             const response = await fetch(url_api,{ 
                 method: 'POST',
@@ -154,10 +134,6 @@ export default{
             });
 
             console.log('respuesta api', response)
-            // this.type_alert = 'success'
-            // this.msg_alert= 'El formulario esta completo y listo para enviar '
-            // console.log('El formulario esta completo y listo para enviar ');
-            // this.inputs={}
         }
 
     }   

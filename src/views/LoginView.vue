@@ -59,7 +59,7 @@
                 }
 
 
-            let url_api = 'http://127.0.0.1:8001/api/gen_token';
+            let url_api = '';
 
             let params  = { 'email': this.email, 'password': this.password };
 
