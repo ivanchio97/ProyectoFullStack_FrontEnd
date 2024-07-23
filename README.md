@@ -1,4 +1,6 @@
-# app_pet
+# Proyecto FullStack Front End
+
+Este proyecto es para el diplomado en desarrollo web FullStack, consiste en una app de Vue para el rescate de mascotas.
 
 ## Project setup
 ```
